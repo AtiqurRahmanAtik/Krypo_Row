@@ -575,3 +575,74 @@ body{
     justify-content: space-between;
    
 }
+
+
+
+
+/* Collaboration section */
+
+.CollaborationMain{
+    width: 1080px;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CollaborationCardParent{
+    margin-top: 4rem;
+    display: grid;
+   
+    justify-items: center;
+   
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.CollaborationMain h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.CollaborationCard{
+    width: auto;
+    /* border: 1px solid red; */
+    border-right: 2px solid white ;
+    border-bottom:  1px solid white;
+    padding: 2rem;
+   
+}
+
+.CollaborationCard h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+
+/* Most popular BlockChain Platform */
+.PopularPlatform{
+
+     width: 1080px;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.PopularPlatform h1{
+    font-size: 34px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+
+.PopularPlatformParent{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+   justify-content: center;
+}
