@@ -371,3 +371,182 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+
+
+
+
+
+/* Industry We Serve */
+.industryWeServe{
+    margin-top: 210px;
+   
+ 
+    width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+   
+}
+
+
+.industryWeServe h2{
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+   
+}
+
+
+
+
+/* Industries Section */
+.industriesImages{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+}
+
+
+.industryWeServe .first{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  
+
+  
+}
+
+
+
+.four{
+	  grid-column-start: 3;
+  grid-column-end: 5;
+  
+
+}
+
+
+.grid-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto ;
+
+    justify-content: center;
+  margin-top: 20px;
+  
+ 
+}
+
+
+.item1 {
+    background-image: url("./Assets/Frame 24.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 420px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+    grid-row-start: 1;
+  grid-row-end: 3;
+
+  
+}
+
+.item1 h1 {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    padding: 4px 8px;
+}
+
+.item1 p{
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+    padding: 4px 8px;
+}
+
+
+.item4{
+	  grid-column-start: 3;
+  grid-column-end: 5;
+  
+
+}
+
+
+.industriesButtom{
+    margin-top: 16px;
+    width: 866px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 8px;
+}
+
+.industriesButtom h1{
+    padding: 12px;
+    text-align: center;
+}
+
+
+
+
+
+/* Case Studies section */
+.caseStudiesMain{
+    width: 1080px;
+    height: 480px;
+    background-color: black;
+    border-radius: 16px;
+    margin: auto;
+    padding: 60px;
+}
+
+.caseStudiesleft{
+    border: 1px solid red;
+   
+     width: 380px;
+    line-height: 1.2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.caseStudiesleft h1{
+    font-size: 36px;
+    font-weight: 600;
+     color: white;
+}
+
+.caseStudiesleft p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+}
+
+.caseStudiesleft img{
+    margin-top: 40px;
+}
+
+.blockchainText{
+    
+    width: 380px;
+    line-height: 1.2;
+}
+
+.blockchainText p{
+    width: 280px;
+    margin-top: 20px;
+}
