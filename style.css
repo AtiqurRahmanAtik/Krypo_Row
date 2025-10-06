@@ -182,8 +182,8 @@ body{
     margin-top: 70px;
     
   
-    width: 900px;
-    height: 940px;
+    max-width: 900px;
+    max-height: 940px;
     margin-left: auto;
     margin-right: auto;
 
@@ -221,8 +221,8 @@ body{
 
 .card{
     background-color: white;
-    width: 300px;
-    height: 400px;
+    max-width: 300px;
+    max-height: 400px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -256,7 +256,7 @@ body{
     justify-content: space-between;
     margin-top: 4px;
    
-    width: 860px;
+    max-width: 860px;
    
     
 
@@ -287,8 +287,8 @@ body{
 /* our Blockchain section */
 
 .blockchainSection{
-    width: 1180px;
-    height: 500px;
+    max-width: 1180px;
+    max-height: 500px;
    
     background-color: white;
     margin: auto;
@@ -311,12 +311,12 @@ body{
 
 .blockchainText{
     
-    width: 380px;
+    max-width: 380px;
     line-height: 1.2;
 }
 
 .blockchainText p{
-    width: 280px;
+    max-width: 280px;
     margin-top: 20px;
 }
 
@@ -381,8 +381,8 @@ body{
     margin-top: 210px;
    
  
-    width: 1200px;
-    height: 700px;
+    max-width: 1200px;
+    max-height: 700px;
     margin-left: auto;
     margin-right: auto;
 
@@ -484,7 +484,7 @@ body{
 
 .industriesButtom{
     margin-top: 16px;
-    width: 866px;
+    max-width: 866px;
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
@@ -503,11 +503,14 @@ body{
 
 /* Case Studies section */
 .caseStudiesMain{
-    width: 1080px;
-    height: 480px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+    max-height: 480px;
     background-color: black;
     border-radius: 16px;
-    margin: auto;
+    /* margin: auto; */
     padding: 60px;
 
     display: flex;
@@ -515,9 +518,7 @@ body{
 }
 
 .caseStudiesleft{
-   
-   
-     width: 380px;
+    max-width: 380px;
     line-height: 1.2;
 
     display: flex;
@@ -582,7 +583,7 @@ body{
 /* Collaboration section */
 
 .CollaborationMain{
-    width: 1080px;
+    max-width: 1080px;
     margin-top: 6rem;
     margin-left: auto;
     margin-right: auto;
@@ -625,7 +626,7 @@ body{
 /* Most popular BlockChain Platform */
 .PopularPlatform{
 
-     width: 1080px;
+     max-width: 1080px;
     margin-top: 6rem;
     margin-left: auto;
     margin-right: auto;
@@ -645,4 +646,18 @@ body{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
    justify-content: center;
+}
+
+
+
+
+
+/* Founder Management Team */
+
+.FounderManagementTeam{
+        max-width:1350px;
+        margin-top: 7rem;
+       
+        border: 1px solid red;
+
 }
