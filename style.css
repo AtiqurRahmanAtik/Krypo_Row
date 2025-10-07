@@ -587,9 +587,10 @@ body{
 
 .CollaborationMain{
     max-width: 1080px;
-    margin-top: 6rem;
+    margin-top: 12.4rem;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
 }
 
 .CollaborationCardParent{
@@ -1306,5 +1307,121 @@ footer{
    font-size: 1rem;
 
    line-height: 1.4;
+    
+}
+
+
+
+
+/* RoadMap section */
+.roadMap{
+    margin-top: 6rem;
+    max-width: 1048px;
+    margin-left: auto;
+    margin-right: auto;
+  
+
+}
+
+
+.roadMapTitle{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.roadMapParent{
+/* 
+    display: flex;
+    gap: 8px;
+    justify-content: center; */
+
+    position: relative;
+    border-top: 2px solid black;
+   
+    padding-top: 4rem;
+
+}
+
+
+.roadMapChild1{
+
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.roadMapChild2{
+
+    display: flex;
+    gap: 1rem;
+    /* justify-content: center; */
+    
+    position: absolute;
+    top: 10rem;
+   
+}
+
+
+
+.roadMapStep{
+    width: 260px;
+    height: 270px;
+    border-radius: 1rem;
+    background-color: #000000;
+
+}
+
+
+.roadMapStep h1{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+
+}
+
+
+
+.roadMapStep p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+
+}
+
+
+
+.roadMapStep2{
+    width: 250px;
+    height: 270px;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 1.2rem 0rem;
+   
+
+}
+
+
+.roadMapStep2 ul li{
+    font-size: 1rem;
+    font-weight: 400;
+    color:black;
+    padding: 6px;
+    
+     
+}
+
+.roadMapStep2 ul{
+    
+    list-style-image: url("./Assets/Star 1.png");
+    list-style-position: inside;
     
 }
