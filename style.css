@@ -834,21 +834,37 @@ body{
     min-height: 680px;
     margin-top: 6rem;
    
-    background-color: rgb(20, 20, 20);
+   background: #000000;
+
+ background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(126, 97, 255, 1) 80%);
+
+    position: relative;
+
+
 }
 
+
 .OurCommunityTitle{
+    max-width: 1020px;
     font-size: 2rem;
     font-weight: 600;
     color: white;
     text-align: center;
-   padding-top: 4rem;
+   padding-top: 8rem;
+   padding-bottom: 14rem;
+   margin-top: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+   /* margin-bottom: 18rem; */
+   border-bottom: 1px solid white;
+
 }
 
 
 .OurCommunityParent{
 
     margin-top: 4rem;
+    padding-bottom: 8rem;
     display: flex;
     gap: 1rem;
     justify-content: space-evenly;
@@ -858,7 +874,8 @@ body{
 .OurCommunityLeft{
     max-width: 420px;
     height: 430px;
-    border: 1px solid red;
+ 
+    
     
 }
 
@@ -885,6 +902,183 @@ body{
     font-weight: normal;
     color: white;
 }
+
+/* 
+.brandImages{
+    position: absolute;   
+} */
+
+.brandImages .b1{
+    position: absolute;
+    top: 18rem;
+    left: 18.6rem;
+    width: 8rem;
+}
+
+.brandImages .b2{
+    position: absolute;
+    top: 15rem;
+    left: 26.4rem;
+    width: 8rem;
+}
+
+.brandImages .b3{
+    position: absolute;
+    top: 17.2rem;
+    right: 11rem;
+    width: 8rem;
+    object-fit: fill;
+}
+
+.brandImages .b4{
+    position: absolute;
+    top: 17.9rem;
+    right: 34rem;
+    width: 7rem;
+    object-fit: fill;
+  
+}
+
+
+.brandImages .b5{
+    position: absolute;
+    top: 14rem;
+    left: 10rem;
+    width: 7rem;
+    object-fit: fill;
+  
+}
+
+
+.brandImages .s1{
+    position: absolute;
+    top: 21rem;
+    left: 10rem;
+    width: 7rem;
+    object-fit: fill;
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: .4rem;
+    border: 1px solid #3538CD;
+    border-radius: 2rem;
+    width: 10rem;
+    rotate: -20deg;
+}
+
+
+.brandImages .s2{
+    position: absolute;
+    top: 20.4rem;
+    left: 34rem;
+    width: 7rem;
+    object-fit: fill;
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: .4rem;
+    border: 1px solid #3538CD;
+    border-radius: 2rem;
+    width: 10rem;
+    rotate: 28deg;
+}
+
+
+
+.brandImages .s3{
+    position: absolute;
+    top: 20rem;
+    right: 24rem;
+    width: 7rem;
+    object-fit: fill;
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: .4rem;
+    border: 1px solid #3538CD;
+    border-radius: 2rem;
+    width: 10rem;
+    rotate: 30deg;
+}
+
+
+.brandImages .s4{
+    position: absolute;
+    top: 15rem;
+    left: 18rem;
+    width: 14rem;
+    object-fit: fill;
+    background-color: #161AF2;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: .4rem;
+    border: 1px solid #3538CD;
+    border-radius: 2rem;
+    width: 10rem;
+    rotate: -20deg;
+
+}
+
+
+.brandImages .s5{
+    position: absolute;
+    top: 17rem;
+    right: 18rem;
+    width: 17rem;
+    object-fit: fill;
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: .4rem;
+    border: 1px solid #3538CD;
+    border-radius: 2rem;
+    width: 10rem;
+   
+}
+
+
+.brandImages .s6{
+    position: absolute;
+    top: 22rem;
+    left: 26rem;
+    width:17rem;
+    object-fit: fill;
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: .4rem;
+    border: 1px solid #3538CD;
+    border-radius: 2rem;
+    width: 10rem;
+  
+}
+
+
+.brandImages .s7{
+    position: absolute;
+    top: 15rem;
+    left: 33rem;
+    width:17rem;
+    object-fit: fill;
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: .4rem;
+    border: 1px solid #3538CD;
+    border-radius: 2rem;
+    width: 10rem;
+  
+}
+
+
+
 
 
 .checkbox{
