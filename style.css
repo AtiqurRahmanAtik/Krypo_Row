@@ -360,14 +360,33 @@ body{
 
 .blockchainCard{
     background-color: #EEF4FF;
-    width: 280px;
-    height: 360px;
+    max-width: 280px;
+    max-height: 360px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     
    
 }
+
+
+.blockchainCard3{
+    max-width: 280px;
+    max-height: 360px;
+
+      background-color: #EEF4FF;
+   
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0rem;
+    
+
+}
+
+
 
 .blockchainCard h3{
     margin-top: 20px;
@@ -688,7 +707,8 @@ body{
 
 
 .founderTitle{
-    margin-top: 6rem;
+    /* position: absolute;
+    margin-top: 1rem; */
     /* text-align: center; */
     font-size: 2rem;
     font-weight: 600;
@@ -699,6 +719,8 @@ body{
     margin-left: 8rem;
     
 }
+
+
 
 
 .managementsImagesParents{
@@ -750,8 +772,6 @@ body{
     display: flex;
     gap: 1rem;
     justify-content: center;
-   
-   
     align-items: center;
    
 }
@@ -1356,20 +1376,22 @@ footer{
 
 .roadMapChild2{
 
+       /* min-width: 465px; */
     display: flex;
     gap: 1rem;
     /* justify-content: center; */
     
     position: absolute;
     top: 10rem;
+    left: -20px;
    
 }
 
 
 
 .roadMapStep{
-    width: 260px;
-    height: 270px;
+    min-width: 260px;
+    min-height: 270px;
     border-radius: 1rem;
     background-color: #000000;
 
@@ -1399,13 +1421,12 @@ footer{
 
 
 .roadMapStep2{
-    width: 250px;
-    height: 270px;
+    min-width: 260px;
+    min-height: 270px;
     border-radius: 1rem;
     background-color: white;
     padding: 1.2rem 0rem;
    
-
 }
 
 
@@ -1439,12 +1460,10 @@ footer{
         display: none;
     }
 
-    /* .navLinks{
-        background-color: #7E61FF;
-        color: white;
-        font-size: 1rem;
-        text-align: center;
-    } */
+    .navLinks{
+        display: flex;
+         
+    }
 
 
 
@@ -1459,6 +1478,66 @@ footer{
          color: black;
          font-weight: 500;
 }
+
+
+.blockchainCard{
+    background-color: #EEF4FF;
+    max-width: 280px;
+    max-height: 360px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+   
+}
+
+
+.leftFramsMobile{
+    display: none;
+}
+
+.blockchainCard3{
+    max-width: 252px;
+    max-height: 360px;
+
+}
+
+
+.blockchainSection{
+    margin-top: 4rem;
+    max-width: 1180px;
+    max-height: 500px;
+   
+   
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+    
+    border-radius: 24px;
+
+}
+
+
+.blockchainCards{
+    display: flex;
+    gap: 20px;
+   position: absolute;
+   top: 0px;
+   right: -160px;
+  
+}
+
+
+.blockchainCard{
+   
+    max-width: 252px;
+    max-height: 342px;
+   
+    
+   
+}
+
+
       
 }
 
@@ -1487,6 +1566,25 @@ footer{
     .navSubmitButton{
         display: none;
     }
+
+
+    .navSection{
+    display: flex;
+    justify-content: space-between;
+    max-width: 475px;
+   
+    padding: 10px 20px;
+   
+   
+ 
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+
+}
+
 
 
       .navLinks{
@@ -1666,7 +1764,7 @@ footer{
 }
 
 .blockchainCard3{
-    max-width: 484px;
+    max-width: 464px;
     max-height: 400px;
 
       background-color: #EEF4FF;
@@ -1680,6 +1778,16 @@ footer{
     
 
 }
+
+
+
+.blockchainCard{
+   
+    min-width: 200px;
+    min-height: 300px; 
+   
+}
+
 
 
 .blockChainImage{
@@ -1765,17 +1873,17 @@ footer{
 
 .item2{
     max-width: 465px;
-    height: 420px;
+    height: 216px;
 }
 
 
 
 .caseStudiesMain{
-    margin-top: 55rem;
+    margin-top: 42rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 465px;
-    max-height: 750px;
+    max-height: 1250px;
     
     /* margin: auto; */
     padding: 12px;
@@ -1784,11 +1892,381 @@ footer{
     gap: 40px;
 }
 
+.caseStudiesleft h1{
+    font-size: 2rem;
+    font-weight: 600;
+     padding:6px 8px ;
+
+}
 
 .caseStudiesleft img{
     margin-top: 40px;
     
 }
+
+
+.industriesButtom{
+    margin-top: 16px;
+    max-width: 410px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 8px;
+}
+
+
+
+.caseRightContent{
+    padding: 6px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+
+.caseRightContent img{
+    margin-top: 1rem;
+}
+
+
+
+.roadMap{
+   
+    max-width: 465px;
+    height: auto;
+  
+}
+
+
+.roadMapChild1{
+
+    max-width: 465px;
+    flex-direction: column;
+    gap: 7rem;
+    justify-content: center;
+}
+
+
+
+.roadMapChild2{
+    min-width: 465px;
+    flex-direction: column;
+    gap: 7rem;
+   
+ 
+    top: 10rem;
+    max-width: 465px;
+    left: 0px;
+   
+}
+
+
+.roadMapStep{
+    max-width: 445px;
+    height: 270px;
+    border-radius: 1rem;
+    background-color: #000000;
+
+}
+
+
+.roadMapStep2{
+    max-width: 445px;
+    max-height: 270px;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 0px 0px;
+   
+}
+
+
+.CollaborationCardParent{
+    margin-top: 4rem;
+    display: grid;
+   
+    justify-items: center;
+    align-content: start;
+   
+    grid-template-columns: auto auto auto;
+}
+
+
+.CollaborationMain h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* .CollaborationMain{
+    max-width: 465px;
+    margin-top: 12.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+} */
+
+
+
+.CollaborationCard{
+    max-width: 152px;
+    /* border: 1px solid red; */
+    border-right: 2px solid white ;
+    border-bottom:  1px solid white;
+    padding: 6px;
+   
+}
+
+
+
+.managementHide{
+    display: none;
+}
+
+
+
+ .managementShow{
+    max-width: 460px;
+    position: absolute;
+    margin-top: 8rem;
+    left: -10rem;
+   
+
+} 
+
+
+
+ .managementTitle{
+   
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+
+.managementTitle p{
+   text-align: center;
+}
+
+
+.leftFramsMobile{
+    position: absolute;
+    top: 26rem;
+    left: 14rem;
+    display: flex;
+    gap: 8px;
+}
+
+
+
+/* .framImagehide{
+    display: none;
+} */
+
+
+/* 
+.leftFrams{
+    display: flex;
+    gap: 0.7rem;
+    position: absolute;
+    bottom: -5rem;
+    right: 8rem;
+} */
+
+
+.framParents{
+    display: none;
+}
+
+
+.FounderManagementTeamParent{
+
+   
+    gap: 20px;
+    position: relative;
+    flex-direction: column-reverse;
+}
+
+
+.founderTitle{
+    margin-top: 0rem;
+    /* text-align: center; */
+    font-size: 2rem;
+    font-weight: 600;
+    color:black;
+    margin-bottom: 1.5rem;
+    /* margin: auto; */
+
+    margin-left: 8rem;
+    
+}
+
+
+.FounderManagementTeam{
+    position: relative;
+
+}
+
+
+.PopularPlatform{
+    margin-top: 38rem;
+}
+
+
+
+.managementsImagesParents{
+   
+    flex-direction: column;
+    justify-content: flex-start;
+   align-items: center; 
+
+   position: absolute;
+   top: 2rem;
+   right: 12rem;
+}
+
+
+
+
+.founderName p{
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    text-transform: capitalize;
+   
+}
+
+
+.PopularPlatformParent{
+    min-width: 465px;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+   justify-content: center;
+}
+
+
+
+.CollaborationCard h1{
+    font-size: 8px;
+    font-weight: 500;
+    color: black;
+}
+
+
+.PopularPlatform h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+   
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+.ArticlesParent{
+
+   flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+
+.NewsArticles{
+    max-width: 465px;
+    max-height: 970px;
+     padding: 1rem 2rem ;
+
+}
+
+
+.OurCommunityParent{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.KrypoParent{
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+   
+}
+
+
+
+
+.KrypoLeft{
+    max-width: 410px;
+    max-height: 180px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 3rem;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.footerParent{
+    flex-direction: column;
+    gap: 1rem;
+   
+    align-items: center;
+    
+}
+
+
+.brandImages div{
+    width: 100px;
+}
+
+
+.brandImages .s7{
+   
+    top: 12rem;
+    left: 25rem;
+   
+  
+}
+
+
+
+
+.brandImages .s2{
+   
+    top: 18rem;
+    left: 24rem;
+    width: 7rem;
+   
+}
+
+
+
+.brandImages .s6{
+   
+    top: 22rem;
+    left: 2rem;
+    
+  
+}
+
 
 
 }
